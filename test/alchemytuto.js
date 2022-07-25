@@ -1,4 +1,6 @@
-const url =
-  "https://eth-goerli.g.alchemy.com/v2/jRUU9Ey2_Unk0Hrp8eCWjxDKvL2flKPO";
+const ethers = require("ethers");
+const { alchemyHttps } = require("../secret/keepmesecret");
 
-const provider = new ethers.providers.JsonRpcProvider(url);
+const provider = new ethers.providers.JsonRpcProvider(alchemyHttps);
+
+console.log(alchemyHttps);
