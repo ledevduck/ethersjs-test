@@ -1,7 +1,7 @@
 const ethers = require("ethers");
+const { alchemyHttps } = require("../secret/keepmesecret");
 
-const providerAddress = "";
-const provider = new ethers.providers.JsonRpcProvider(providerAddress);
+const provider = new ethers.providers.JsonRpcProvider(alchemyHttps);
 
 const address = "0x73BCEb1Cd57C711feaC4224D062b0F6ff338501e";
 
