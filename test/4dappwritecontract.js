@@ -1,7 +1,7 @@
 // Write Contract
 
 const { ethers } = require("ethers");
-const { goerli, privateKey } = require("../secret/keepmesecret");
+const { goerli, privateKey } = require("../secret/secret");
 
 const provider = new ethers.providers.JsonRpcProvider(goerli);
 

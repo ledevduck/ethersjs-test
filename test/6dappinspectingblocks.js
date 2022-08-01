@@ -1,7 +1,7 @@
 // Inspecting Blocks
 
 const { ethers } = require("ethers");
-const { goerli } = require("../secret/keepmesecret");
+const { goerli } = require("../secret/secret");
 
 const provider = new ethers.providers.JsonRpcProvider(goerli);
 

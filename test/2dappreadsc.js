@@ -1,7 +1,7 @@
 // Read Smart Contracts
 
 const { ethers } = require("ethers");
-const { mainnet } = require("../secret/keepmesecret");
+const { mainnet } = require("../secret/secret");
 
 const provider = new ethers.providers.JsonRpcProvider(mainnet);
 

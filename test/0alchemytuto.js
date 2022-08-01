@@ -1,5 +1,5 @@
 const ethers = require("ethers");
-const { goerli, mainnet } = require("../secret/keepmesecret");
+const { goerli, mainnet } = require("../secret/secret");
 
 const provider = new ethers.providers.JsonRpcProvider(mainnet);
 
